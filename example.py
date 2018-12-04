@@ -10,10 +10,10 @@ from src.follow_protocol import follow_protocol
 from src.unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
-    login="username",
-    password="password",
+    login="evilproductions",
+    password="Erikvjr123@#",
     like_per_day=1000,
-    comments_per_day=0,
+    comments_per_day=25,
     tag_list=['follow4follow', 'f4f', 'cute', 'l:212999109'],
     tag_blacklist=['rain', 'thunderstorm'],
     user_blacklist={},
